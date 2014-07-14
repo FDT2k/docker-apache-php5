@@ -7,5 +7,5 @@ RUN         apt-get -y install libapache2-mod-php5
 
 EXPOSE 80
 
-ADD apache.sv.conf /etc/supervisor/conf.d/apache2.sv.conf
+ADD apache1.sv.conf /etc/supervisor/conf.d/apache2.sv.conf
 
