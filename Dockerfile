@@ -10,4 +10,3 @@ EXPOSE 80
 
 ADD apache1.sv.conf /etc/supervisor/conf.d/apache2.sv.conf
 
-short_open_tag=On
